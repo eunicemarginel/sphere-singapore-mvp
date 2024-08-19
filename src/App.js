@@ -6,6 +6,7 @@ import ChooseRegistration from './components/ChooseRegistration';
 import RegisterIndividual from './components/RegisterIndividual';
 import RegisterAgency from './components/RegisterAgency';
 import RegisterBusiness from './components/RegisterBusiness';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <div className="container-fluid">
             <Link className="navbar-brand" to="/">Sphere Singapore</Link>
+            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span className="navbar-toggler-icon"></span>
+            </button>
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav ms-auto">
                 <li className="nav-item">
